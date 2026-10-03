@@ -1,5 +1,5 @@
 name: update-data
-
+ 
 on:
   schedule:
     - cron: "0 0 * * 0"
@@ -17,10 +17,10 @@ on:
           - audit-fix
           - seed
           - rebuild
-
+ 
 permissions:
   contents: write
-
+ 
 jobs:
   update:
     runs-on: ubuntu-latest
